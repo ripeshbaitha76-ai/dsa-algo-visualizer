@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Algo Lab</title>
+  <link rel="stylesheet" href="algolab.css">
+</head>
+<body>
+  <div class="wrap">
+    <aside>
+      <h1>Algo Lab</h1>
+      <p class="sub">DSA visualizer</p>
+      <div id="menu"></div>
+    </aside>
+
+    <main>
+      <div class="top">
+        <button id="gen">New data</button>
+        <input type="number" id="target" placeholder="search for" min="1" max="99">
+        <select id="speed">
+          <option value="600">Slow</option>
+          <option value="250" selected>Medium</option>
+          <option value="60">Fast</option>
+        </select>
+        <button id="go" class="primary">Run</button>
+        <button id="halt">Stop</button>
+      </div>
+
+      <div id="msg"></div>
+      <div id="stage"></div>
+
+      <section id="notes">
+        <h2 id="n-name"></h2>
+        <p id="n-text"></p>
+        <p class="cx">Time: <b id="n-time"></b> &nbsp;|&nbsp; Space: <b id="n-space"></b></p>
+      </section>
+    </main>
+  </div>
+  <script src="algolab.js"></script>
+</body>
+</html>
