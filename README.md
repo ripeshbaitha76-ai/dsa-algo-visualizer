@@ -3,7 +3,7 @@
 A small DSA visualizer made with plain HTML, CSS and JavaScript.
 
 Live Demo:
-https://ripeshbaitha76-ai.github.io/dsa-algo-visualizer/
+https://ripeshbaitha76-ai.github.io/dsa-algo-visualizer/algolab.html
 
 ## Algorithms
 - Sorting: Selection Sort, Quick Sort, Merge Sort
